@@ -12,6 +12,7 @@ module.exports.conectApi = async(req, res) => {
     .catch (err => console.log("unexpected error: " + err) )
 }
 
+
 module.exports.sendMessage = async (req, res) => {
     options = {
         quoted: null,

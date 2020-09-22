@@ -7,6 +7,7 @@ app.use(bodyparser.json())
 
 const whatsapp = require('./whatsapp-service');
 
+
 app.post('/whatsapp/connect', whatsapp.conectApi)
 app.post('/whatsapp/sendmessage', whatsapp.sendMessage)
 
